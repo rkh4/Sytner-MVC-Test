@@ -1,0 +1,50 @@
+﻿
+@model IEnumerable<SytnerTest.Models.car>
+
+
+<h1></h1>
+
+<div class="data">
+    <table>
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Make)</th>
+                <th>@Html.DisplayNameFor(model => model.Model)</th>
+                <th>@Html.DisplayNameFor(model => model.Year)</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>@car.Make</td>
+                    <td>@car.Model</td>
+                    <td>@car.Year</td>
+                    <td>
+                        <a class="button" value="Edit" href="Cars/edit/@car.ID">Edit</a>
+                        <a class="button" value="Delete" href="/Cars/Delete/@car.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="insert">
+    <div class="header">Insert New Record</div>
+    @using (Html.BeginForm("addNew", "cars"))
+    {
+        @Html.Label("Make")
+        @Html.TextBox("txtMake")
+        <br />  
+        @Html.Label("Model")
+        @Html.TextBox("txtModel")
+        <br />
+        @Html.Label("Year")
+        @Html.TextBox("txtYear")
+        <br />
+        <button class="button">Add New</button>
+    }
+</div>

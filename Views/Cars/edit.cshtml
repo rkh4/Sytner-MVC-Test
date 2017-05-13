@@ -1,0 +1,22 @@
+﻿
+<div class="editRecord">
+    <h1 class="header">Edit Record</h1>
+    <p>Current Value</p>
+    <h3>@ViewBag.car.Make @ViewBag.car.Model</h3><h5>From @ViewBag.car.Year</h5>
+
+    <br />
+    <p>Update To</p>
+    @using (Html.BeginForm("confirmEdit", "cars", new { @id = ViewBag.car.ID }))
+    {
+        @Html.Label("Make")
+        @Html.TextBox("txtMake")
+        <br />
+        @Html.Label("Model")
+        @Html.TextBox("txtModel")
+        <br />
+        @Html.Label("Year")
+        @Html.TextBox("txtYear")
+        <br />
+        <button class="button">Update</button>
+    }
+</div>

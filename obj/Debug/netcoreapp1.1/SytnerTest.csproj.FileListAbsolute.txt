@@ -1,0 +1,9 @@
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\bin\Debug\netcoreapp1.1\SytnerTest.deps.json
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\bin\Debug\netcoreapp1.1\SytnerTest.runtimeconfig.json
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\bin\Debug\netcoreapp1.1\SytnerTest.runtimeconfig.dev.json
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\bin\Debug\netcoreapp1.1\SytnerTest.dll
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\bin\Debug\netcoreapp1.1\SytnerTest.pdb
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\obj\Debug\netcoreapp1.1\SytnerTest.csprojResolveAssemblyReference.cache
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\obj\Debug\netcoreapp1.1\SytnerTest.AssemblyInfo.cs
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\obj\Debug\netcoreapp1.1\SytnerTest.dll
+c:\users\rhys_\documents\visual studio 2017\Projects\SytnerTest\SytnerTest\obj\Debug\netcoreapp1.1\SytnerTest.pdb
